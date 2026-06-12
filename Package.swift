@@ -29,11 +29,11 @@ let package = Package(
 
         // macOS: library (dylib) slices — the prebuilt dylib keeps its
         // @rpath/<name>.dylib id, which matches dylib-style embedding.
-        .binaryTarget(name: "libEGL_macos",    url: "https://github.com/xLightsSequencer/xLights-macOS-dependencies/releases/download/xlights_2026.10/libEGL-macos.xcframework.zip",    checksum: "ea573da9aaf535299593cb145b0a5e31fa801d22ae6d9f4dcf338e6edf59bade"),
-        .binaryTarget(name: "libGLESv2_macos", url: "https://github.com/xLightsSequencer/xLights-macOS-dependencies/releases/download/xlights_2026.10/libGLESv2-macos.xcframework.zip", checksum: "34e9281e6cb6cd32be36ce484606234797fa6df56cad628b3db3c8ea1ff680ce"),
+        .binaryTarget(name: "libEGL_macos",    url: "https://github.com/xLightsSequencer/xLights-macOS-dependencies/releases/download/latest/libEGL-macos-57339d2.xcframework.zip",    checksum: "523980841e20f1974bdc8af70e97199b256dbeea8270d214322cb51b0cd53d4a"),
+        .binaryTarget(name: "libGLESv2_macos", url: "https://github.com/xLightsSequencer/xLights-macOS-dependencies/releases/download/latest/libGLESv2-macos-57339d2.xcframework.zip", checksum: "67525418652cb84c93906f4e9a49fe0fe311fa0ec0da6572084d945ab9afaf03"),
 
         // iOS: framework slices (device + simulator).
-        .binaryTarget(name: "libEGL_ios",      url: "https://github.com/xLightsSequencer/xLights-macOS-dependencies/releases/download/xlights_2026.10/libEGL-ios.xcframework.zip",      checksum: "11b8402bfc5052bade24b517e551d07dd9cf4585816855941358ae390c4970b7"),
-        .binaryTarget(name: "libGLESv2_ios",   url: "https://github.com/xLightsSequencer/xLights-macOS-dependencies/releases/download/xlights_2026.10/libGLESv2-ios.xcframework.zip",   checksum: "93f753360f9a82cda679f56fea9d5d62cc5e35aa4576944892fe08a6a7505dbf"),
+        .binaryTarget(name: "libEGL_ios",      url: "https://github.com/xLightsSequencer/xLights-macOS-dependencies/releases/download/latest/libEGL-ios-57339d2.xcframework.zip",      checksum: "0b02170bd56f961a51505d16b25a2139150c70d74881af2bf716bd8c9e8b2400"),
+        .binaryTarget(name: "libGLESv2_ios",   url: "https://github.com/xLightsSequencer/xLights-macOS-dependencies/releases/download/latest/libGLESv2-ios-57339d2.xcframework.zip",   checksum: "04d02829a0e2eb89611d0dcd45bcb12389c425d8e675214dc195306ff8923478"),
     ]
 )
